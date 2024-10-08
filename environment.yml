@@ -1,0 +1,10 @@
+name: kubernetes-notes
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter-book
+  - pip
+  - pip:
+    - pre-commit
